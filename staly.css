@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(254, 247, 236);
+color: rgba(0, 0, 0, 0.744);
+font-size: 15px;
+font-weight: 400;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(80, 2, 2);
+}
+
+li {
+    display: block;
+  }
+
+.info p {
+    color: rgba(0, 0, 0, 0.515);
+margin: 0;
+font-style: italic;
+font-weight: bold;
+}
+
+.social {
+background-color: rgba(241, 230, 217, 0.933);
+text-align: center;
+
+}
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+
+}
+.form-group lebel{
+    display: block;
+font-size: 14px;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    background-color: rgb(254, 247, 236);
+    box-sizing: border-box;
+    border: none;
+    border-bottom:1px solid rgb(226, 221, 213);
+    
+}
+.Books {
+    display: block; 
+}
+.btn{
+    
+    background:rgb(254, 247, 236);;
+    color: rgb(65, 41, 2);
+    padding: 20px, 30px;
+    cursor: pointer;
+    width: 15%;
+    
+}
+.btn:hover{
+    opacity:0.9;
+}
