@@ -1,4 +1,3 @@
-# Bohsliu-CV
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +8,12 @@
     <script src="/js/styl.js"></script>
 </head>
 <body>
-    
 <div class="info">
 <img src="31.jpg " width="750px"/>
-
 <h1>Bohdana Sliuta</h1>
 <p><em></em>For more than 5 years was working as a professional-client relationship and purchasing manager with deep knowledge and wide experience in working with Chinese clients. The responsibilities always required attention to details, quality control of the products and high level of the communication with the clients and our team. I have basic experience in QA, also I've finished Grid Dynamics “QA Manual” course. At the same continue learning English in addition to the professional knowledge of Chinese. 
 </em></p>
 </div>
-
 <h2>Core Technical Skills:</h2>
 <li>Ability to write test documentation: test plan, checklist, test case, bug report;</li> 
   <li>Knowledge of software test design techniques and understanding of their implementation;</li>
@@ -77,8 +73,6 @@ target="_blank">Youtube</a>
 <li>Course: Grid Dynamics IT School – Manual QA</li>
 <li>Books: “Software Testing – Base Course” (Svyatoslav Kulikov)</li>
 <li>“QA Bible” (Vladislav Eremeev)</li>
-
-<div class="Books">
 <h2>Сontact with me</h2>
 <form method="post">
 <form action="/">
@@ -92,12 +86,10 @@ placeholder="Enter your name...">
 <label for="email"></label>
 <input type="email" id="email" placeholder="Enter your email...">
 </div>
-
 <div class="form-group">
     <label for="text"> Your messag...</label>
 <textarea id="text" rows="10" cols="60"></textarea>
 </div>
-
 <input class="btn" type="submit"
 value="Send">
 </form>
@@ -108,3 +100,69 @@ value="Send">
 </body>
 </div>
 </html>
+
+
+
+body {
+    background-color: rgb(254, 247, 236);
+color: rgba(0, 0, 0, 0.744);
+font-size: 15px;
+font-weight: 400;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(80, 2, 2);
+}
+
+li {
+    display: block;
+  }
+
+.info p {
+    color: rgba(0, 0, 0, 0.515);
+margin: 0;
+font-style: italic;
+font-weight: bold;
+}
+
+.social {
+background-color: rgba(241, 230, 217, 0.933);
+text-align: center;
+
+}
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+
+}
+.form-group lebel{
+    display: block;
+font-size: 14px;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    background-color: rgb(254, 247, 236);
+    box-sizing: border-box;
+    border: none;
+    border-bottom:1px solid rgb(226, 221, 213);
+    
+}
+.Books {
+    display: block; 
+}
+.btn{
+    
+    background:rgb(254, 247, 236);;
+    color: rgb(65, 41, 2);
+    padding: 20px, 30px;
+    cursor: pointer;
+    width: 15%;
+    
+}
+.btn:hover{
+    opacity:0.9;
+}
